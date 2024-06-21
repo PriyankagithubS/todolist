@@ -38,3 +38,29 @@ body {
 h2 {
     text-decoration: #007bff;
 }
+.btn-danger {
+    position: relative;
+    padding-left: 30px; 
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-danger img {
+    margin-right: 5px; 
+}
+
+.btn-danger::before {
+    content: "";
+    background-image: url('delete.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 16px; 
+    height: 16px;
+    position: absolute;
+    left: 10px; 
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: red;
+}
+

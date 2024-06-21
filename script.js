@@ -32,7 +32,7 @@ myForm.addEventListener("submit", (e) => {
     })
     .then((response) => response.json())
     .then((data) => {
-        alert("Updated successfully");
+       // alert("Updated successfully");
         createCard(data);
     })
     .catch((error) => {
@@ -148,7 +148,7 @@ function deleteTask(id, cardElement) {
     })
     .then(() => {
         cardElement.remove();
-        alert("Task deleted successfully");
+       // alert("Task deleted successfully");
     })
     .catch((error) => {
         console.error("Error deleting task:", error);
