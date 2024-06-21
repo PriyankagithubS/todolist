@@ -1,0 +1,40 @@
+.form-box {
+    border: 1px solid #ced4da;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+    padding: 20px; 
+    border-radius: 10px; 
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 500px;
+    height: max-content;
+    color: #007bff;
+    background-color: grey;
+}
+body {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa; 
+    background-image: url('img.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center center; 
+    color: #007bff;
+}
+.card.initiated {
+    background-color: #007bff;
+    color: #fff;
+}
+.card.completed {
+    background-color: #28a745;
+    color: #fff;
+}
+.card.pending {
+    background-color: #ffc107;
+    color: #000;
+}
+h2 {
+    text-decoration: #007bff;
+}
